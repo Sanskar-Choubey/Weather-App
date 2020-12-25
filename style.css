@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgb(47, 158, 163), rgb(48, 62, 143));
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-heading {
+    font-size: 3rem;
+    padding: 1rem;
+    margin: auto;
+    max-width: 600px;
+    margin-top: 5rem;
+    font-family: 'Cinzel';
+}
+.image{
+    height:12rem;
+    width:12rem;
+    border:1px solid blue;
+    border-radius: 50rem;
+    box-shadow: 2px 2px 100px white;
+}
+
+.input-field {
+    padding: 1rem;
+    margin: auto;
+    max-width: 600px;
+    width: 70%;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 50rem;
+    box-shadow: 5px 5px 100px rgb(187, 243, 245);
+    margin-top: 5rem;
+    font-size: 1rem;
+}
+
+.button {
+    padding: 1rem;
+    max-width: 6;
+    border: 1px solid blue;
+    border-radius: 50rem;
+    box-shadow: 5px 5px 100px rgb(187, 243, 245);
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.location,
+.temprature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temprature {
+    flex-direction: column;
+    align-items: center;
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2 {
+    font-size: 40px;
+}
+
+.city-name h4 {
+    font-size: 2rem;
+}
