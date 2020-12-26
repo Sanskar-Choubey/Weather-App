@@ -97,7 +97,5 @@ body {
     display: block;
     width: 30rem;
     font-size: 1.rem;
-    border:1px solid blue;
     border-radius: 50rem;
-    box-shadow: 2px 2px 5px blue;
 }
