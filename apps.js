@@ -5,7 +5,7 @@ var cityName = document.querySelector(".city-name");
 var cityTemp = document.querySelector(".temprature-degree");
 var locationDetail = document.querySelector(".location-details")
 
-var url = "http://api.openweathermap.org/data/2.5/weather";
+var url = "https://api.openweathermap.org/data/2.5/weather";
 var text = inputField.value;
 
 function urlHandler(text) {
