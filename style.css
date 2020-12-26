@@ -19,7 +19,7 @@ body {
 }
 
 .main-heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 1rem;
     margin: auto;
     max-width: 600px;
@@ -71,7 +71,7 @@ body {
     align-items: center;
 }
 .location-details{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-style: bold;
 }
 .degree-section {
@@ -86,9 +86,9 @@ body {
 }
 
 .degree-section h2 {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .city-name h4 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
