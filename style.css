@@ -70,7 +70,10 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
+.location-details{
+    font-size: 1.3rem;
+    font-style: bold;
+}
 .degree-section {
     display: flex;
     align-items: center;
@@ -88,4 +91,13 @@ body {
 
 .city-name h4 {
     font-size: 2rem;
+}
+
+.footer-desc{
+    display: block;
+    width: 30rem;
+    font-size: 1.rem;
+    border:1px solid blue;
+    border-radius: 50rem;
+    box-shadow: 2px 2px 5px blue;
 }

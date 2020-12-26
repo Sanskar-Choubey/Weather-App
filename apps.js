@@ -3,6 +3,7 @@ var button = document.querySelector(".button");
 var timeZone = document.querySelector(".location-timezone");
 var cityName = document.querySelector(".city-name");
 var cityTemp = document.querySelector(".temprature-degree");
+var locationDetail = document.querySelector(".location-details")
 
 var url = "http://api.openweathermap.org/data/2.5/weather";
 var text = inputField.value;
@@ -26,6 +27,9 @@ function fetchHandler() {
             var centi = temp - 273.15;
             var roundCenti = Math.round(centi);
             cityTemp.innerHTML = roundCenti;
+
+            var details = JSON.weather[0].description;
+            locationDetail.innerHTML = details;
         })
     )
 }
