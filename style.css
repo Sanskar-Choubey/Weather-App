@@ -92,10 +92,3 @@ body {
 .city-name h4 {
     font-size: 2rem;
 }
-
-.footer-desc{
-    display: block;
-    width: 30rem;
-    font-size: 1.rem;
-    border-radius: 50rem;
-}
